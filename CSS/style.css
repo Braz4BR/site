@@ -4,7 +4,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Montserrat;
 }
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+  }
 .firt_nav{
     display: flex;
     align-items: center;
@@ -21,7 +28,6 @@
     justify-content: space-between;
     gap: 50px;
     list-style: none;
-    font-family: Montserrat;
     font-weight: 600;
 }
 .btn_nav{
@@ -39,3 +45,185 @@
     height: auto;
     margin-right: 50px;
 }
+.allPag01{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+.fotoDavi{
+    height: 546px;
+    width: auto;
+    /* rever essa distribuição de tamanho*/
+}
+.chamaPag01{
+    height: auto;
+    width: auto;
+    align-content: center;
+    justify-items: space-around;
+    padding: 20px;
+}
+.btn{
+    margin-top: 20px;
+    justify-items: center;
+}
+.chamariz{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.textChamariz{
+    font-size: 26px;
+}
+.btn_AnaliseGratis {
+    background-color: #FFD700; /* amarelo ouro */
+    color: #000;
+    font-size: 1.2rem;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* sombra leve */
+  }
+  
+  .btn_AnaliseGratis:hover {
+    background-color: #E6B800; /* amarelo mais escuro no hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6); /* sombra mais forte no hover */
+  }
+  
+  .btn_AnaliseGratis img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .textPage02 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .services {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr); /* duas colunas */
+    gap: 20px; /* espaçamento entre os cards */
+    justify-items: center;
+    justify-content: center;
+  }
+  
+  .serviceCard {
+    height: 250px;
+    width: 500px;
+    background-color: #FFCF06;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+.textoServices{
+    font-size: 20px;
+}
+
+/* Seção principal */
+section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Título principal */
+.titleBeneficios {
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+/* Container dos cards */
+.beneficios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+/* Cada card de benefício */
+.modeloBeneficio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 270px;
+}
+
+#textBeneficios{
+  font-size: 22px;
+  font-weight: 500;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* Imagem do benefício (fora do bg amarelo) */
+.modeloBeneficio img {
+  margin-bottom: 10px;
+}
+
+/* Conteúdo com bg amarelo */
+.bgBeneficios {
+  background-color: #FFE100;
+  padding: 15px 15px 60px 15px;
+  border-radius: 8px;
+  width: 100%;
+  max-height: 270px;
+}
+
+/* Título dentro do bg amarelo */
+.bgBeneficios h6 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* Texto dentro do bg amarelo */
+.bgBeneficios p {
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Subtítulo abaixo dos cards */
+.subtitleBeneficios {
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* Botão do WhatsApp */
+#btn_zapzap_meio {
+  margin-top: 20px;
+  background-color: #25D366;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: background-color 0.3s;
+}
+
+#btn_zapzap_meio:hover {
+  background-color: #1ebe57;
+}
+
+
+.totalPublic{
+  display: flex;
+  justify-content: space-around;
+}
+.imgDaviComblur{
+  height: 550px;
+  width: 500px;
+}
+
